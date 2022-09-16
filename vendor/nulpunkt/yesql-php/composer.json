@@ -1,0 +1,23 @@
+{
+    "name": "nulpunkt/yesql-php",
+    "description": "A clone of the wonderful yesql clojure library, for php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jesper Skovgaard Nielsen",
+            "email": "nulpunkt@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+      "squizlabs/php_codesniffer": "3.*",
+      "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "Nulpunkt": "src/",
+            "TestHelper": "src/"
+        }
+    }
+}

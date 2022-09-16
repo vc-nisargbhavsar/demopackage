@@ -1,0 +1,13 @@
+{
+    "name": "demo/custom",
+    "require-dev": {
+        "nulpunkt/yesql-php": "^1.5"
+    },
+    "authors": [
+        {
+            "name": "vc-nisargbhavsar",
+            "email": "nisarg.bhavsar@viitor.cloud"
+        }
+    ],
+    "require": {}
+}

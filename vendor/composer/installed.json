@@ -1,0 +1,53 @@
+{
+    "packages": [
+        {
+            "name": "nulpunkt/yesql-php",
+            "version": "v1.5.0",
+            "version_normalized": "1.5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nulpunkt/yesql-php.git",
+                "reference": "e9e61f9e0fa05fb67748a4e2892d163b94969cd4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nulpunkt/yesql-php/zipball/e9e61f9e0fa05fb67748a4e2892d163b94969cd4",
+                "reference": "e9e61f9e0fa05fb67748a4e2892d163b94969cd4",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "3.*"
+            },
+            "time": "2022-05-17T08:24:12+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Nulpunkt": "src/",
+                    "TestHelper": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jesper Skovgaard Nielsen",
+                    "email": "nulpunkt@gmail.com"
+                }
+            ],
+            "description": "A clone of the wonderful yesql clojure library, for php",
+            "support": {
+                "issues": "https://github.com/nulpunkt/yesql-php/issues",
+                "source": "https://github.com/nulpunkt/yesql-php/tree/v.1.5.0"
+            },
+            "install-path": "../nulpunkt/yesql-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": [
+        "nulpunkt/yesql-php"
+    ]
+}
